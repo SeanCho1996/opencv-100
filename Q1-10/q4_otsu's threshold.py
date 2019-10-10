@@ -29,3 +29,13 @@ for th in range(img_min, img_max):
         th_final = th
 
 print(th_final)
+ret, img_bw1 = cv.threshold(img_gray.astype(np.float), th_final, 255, cv.THRESH_BINARY)
+ret, img_bw2 = cv.threshold(img_gray.astype(np.float), 128, 255, cv.THRESH_BINARY)
+plot.figure()
+plot.subplot(1, 2, 1)
+plot.imshow(img_bw1, cmap='gray')
+plot.title('threshold otsu')
+plot.subplot(1, 2, 2)
+plot.imshow(img_bw2, cmap='gray')
+plot.title('threshold 128')
+plot.show()
