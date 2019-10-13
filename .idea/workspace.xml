@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c8bd91-3c40-481d-ac80-b9dc13699bb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Q11-20/q17_laplacian_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q11-20/q18_emboss_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Q11-20/q17_laplacian_filter.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="46" lean-forward="true" selection-end-line="6" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q11-20/q18_emboss_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -136,6 +149,7 @@
         <option value="$PROJECT_DIR$/Q11-20/q15_sobel.py" />
         <option value="$PROJECT_DIR$/Q11-20/q16_prewitt_filter.py" />
         <option value="$PROJECT_DIR$/Q11-20/q17_laplacian_filter.py" />
+        <option value="$PROJECT_DIR$/Q11-20/q18_emboss_filter.py" />
       </list>
     </option>
   </component>
@@ -196,28 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.q17_laplacian_filter">
-    <configuration name="q13_max-min_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q11-20" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q11-20/q13_max-min_filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.q18_emboss_filter">
     <configuration name="q14_differential_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,13 +295,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="q18_emboss_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q11-20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q11-20/q18_emboss_filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.q18_emboss_filter" />
         <item itemvalue="Python.q17_laplacian_filter" />
         <item itemvalue="Python.q16_prewitt_filter" />
         <item itemvalue="Python.q15_sobel" />
         <item itemvalue="Python.q14_differential_filter" />
-        <item itemvalue="Python.q13_max-min_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -421,19 +435,26 @@
       <option name="project" value="LOCAL" />
       <updated>1570972101007</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add laplacian filtering">
+      <created>1570972814522</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570972814522</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,7 +524,8 @@
     <MESSAGE value="add differential filtering" />
     <MESSAGE value="add sobel filtering" />
     <MESSAGE value="add prewitt filtering" />
-    <option name="LAST_COMMIT_MESSAGE" value="add prewitt filtering" />
+    <MESSAGE value="add laplacian filtering" />
+    <option name="LAST_COMMIT_MESSAGE" value="add laplacian filtering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -751,8 +773,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q11-20/q17_laplacian_filter.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="46" lean-forward="true" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q11-20/q18_emboss_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
