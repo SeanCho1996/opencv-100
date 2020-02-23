@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c8bd91-3c40-481d-ac80-b9dc13699bb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Q21-30/q25_neighbor_interpolation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Q21-30/q21_hist_norm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="44" lean-forward="true" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="76">
+              <caret line="6" column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Q21-30/q22_hist_op.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Q21-30/q24_gamme_correction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="18" lean-forward="true" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Q21-30/q25_neighbor_interpolation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="-57">
+              <caret selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -121,11 +120,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571086898856</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="complete nearest neighbor interpolation">
+      <created>1571087983930</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571087983930</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24900925" />
@@ -474,13 +480,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3275488" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42492917" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.424933" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -553,7 +559,8 @@
     <MESSAGE value="add gamma correlation" />
     <MESSAGE value="add image" />
     <MESSAGE value="complete gamma correlation" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete gamma correlation" />
+    <MESSAGE value="complete nearest neighbor interpolation" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete nearest neighbor interpolation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,10 +856,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q21-30/q24_gamme_correction.py">
+    <entry file="file://$PROJECT_DIR$/Q21-30/q21_hist_norm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q21-30/q22_hist_op.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="18" lean-forward="true" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -866,20 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q21-30/q22_hist_op.py">
+    <entry file="file://$PROJECT_DIR$/Q21-30/q24_gamme_correction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Q21-30/q21_hist_norm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="44" lean-forward="true" selection-end-line="6" selection-end-column="44" />
+          <caret line="2" column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -888,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q21-30/q25_neighbor_interpolation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="-57">
+          <caret selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
